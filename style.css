@@ -1,0 +1,139 @@
+:root {
+  --bg-color: #092328;
+  --text-color: #8bbb92;
+  --card-bg: #2a835f;
+  --primary-color: #12544f;
+}
+
+.light-theme {
+  --bg-color: #249D8F;
+  --text-color: #FDF0D5;
+  --card-bg: #E76F51;
+  --primary-color: #E9C46A;
+}
+
+html{
+  background-color: var(--bg-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 1s ease;
+}
+a:hover {
+  color: var(--text-color);
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+header h1,
+h2 {
+  text-align: center;
+  margin: 0;
+  animation: fadeUp 1s ease-out forwards;
+}
+header h1 {
+  font-size: 60px;
+}
+
+header {
+  background-image: url(images/snowy-map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 440px;
+  border-radius: 0 0 100px 100px;
+  transition: border-radius 3s ease;
+}
+header:hover {
+  border-radius: 0;
+}
+
+.nav-bar{
+  display: inline;
+  z-index: 2;
+  position: fixed;
+  border-radius: 0 0 10px 10px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 40px;
+  transition: border-radius 0.5s ease;
+}
+.nav-bar:hover{
+  border-radius: 0;
+}
+.nav-bar img{
+  width: 30px;
+  height: auto;
+  margin: 4px 0 0 1830px;
+}
+
+.hero {
+  position: relative;
+  display: block;
+}
+
+.certificates {
+  position: relative;
+  text-align: center;
+}
+
+.certificates img {
+  display: inline;
+  height: auto;
+  width: 350px;
+  margin: 10px 30px;
+  border-radius: 8px;
+  transition: border-radius 0.4s ease;
+}
+.certificates img:hover {
+  border-radius: 40px;
+}
+
+.merged {
+  display: flex;
+  background-color: var(--card-bg);
+  border: 8px solid var(--primary-color);
+  border-radius: 30px;
+  gap: 100px;
+  padding: 30px;
+  margin: 150px 500px;
+}
+
+.projects {
+  padding: 0 40px 0 0px;
+  border-right: 2px solid var(--text-color);
+}
+.social-media {
+  position: relative;
+  display: inline-flex;
+  margin: 10px 50px 10px 1400px;
+  padding: 8px 5px;
+  gap: 5px;
+  background-color: var(--card-bg);
+  border: 4px solid var(--primary-color);
+  border-radius: 30px;
+}
+.social-media p{
+  margin: 0;
+  border-right: 2px solid var(--text-color);
+  padding-right: 8px;
+}
+.social-media img {
+  width: 30px;
+  height: auto;
+}
