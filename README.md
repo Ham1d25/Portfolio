@@ -16,20 +16,29 @@ A clean, responsive personal portfolio website built with HTML, CSS, and JavaScr
 - **JavaScript (ES6+)** - Interactivity and theme switching logic
 
 ## 📂 Project Structure
-
 ```text
-portfolio/
+Portfolio/
+├── images/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── discord-brands-solid-full.svg
+│   ├── facebook-brands-solid-full.svg
+│   ├── github-brands-solid-full.svg
+│   ├── instagram-brands-solid-full.svg
+│   ├── logo.jpg
+│   ├── moon-solid-full.svg
+│   ├── sun-solid-full.svg
+│   ├── volume-off-solid-full.svg
+│   ├── volume-solid-full.svg
+│   └── wallhaven-1q2gdw_1920x1080.png
+├── music/
+│   ├── hunter eyes - slowed_spotdown.org.mp3
+│   ├── i kissed (Slowed + Reverb)_spotdown.org.mp3
+│   ├── MY JEALOUSY HARDTEKK - Super Slowed_spotdown.org.mp3
+│   ├── ripped jeans_spotdown.org.mp3
+│   └── VYZEE (UP UP UP, WE CAN GO LOCO)_spotdown.org.mp3
 ├── index.html
-├── style.css
+├── README.md
 ├── script.js
-└── images/
-    ├── 1.png
-    ├── 2.png
-    ├── 3.png
-    ├── discord-brands-solid-full.svg
-    ├── facebook-brands-solid-full.svg
-    ├── github-brands-solid-full.svg
-    ├── instagram-brands-solid-full.svg
-    ├── moon-solid-full.svg
-    ├── snowy-map.png
-    └── sun-solid-full.svg
+└── style.css
